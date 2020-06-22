@@ -16,6 +16,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 <style>
   .first{
@@ -48,6 +49,11 @@
     font-family : "Poppins", sans-serif;
     font-size : 10px;
    }
+ .search{
+    height : 30px;
+    width  : 200px;
+    text-align : center;
+ }
   }
       
 </style>
@@ -64,11 +70,15 @@
   <div class = 'first'>
   <h1>Are you new here?</h1>
   </div>
+ 
+ 
  <div class = 'search'>
   <form method="get" action="https://www.google.com/search">
-<input type="text" name="q" size="31" value="">
+<input placeholder = 'Go type on!' type="text" name="q" size="31" value="">
+    <button type="submit"><i class="fa fa-search"></i></button>
 </form>
  </div>
+ 
  <div class = 'footer'>
   <h>photo from <a href = https://unsplash.com/ target = '_blank'>Unsplash</a></h>
  </div>
