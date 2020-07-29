@@ -24,8 +24,16 @@
 
 @media only screen and (max-aspect-ratio: 8/5){
 	.root{margin : 0px 15px 10px 15px;
+		font-size : 40px;
 		padding: 10px 10px 10px 10px;
-		display: block;}
+		display: block;
+		}
+	.js{
+		font-size : 60px;
+	}
+	.header{
+		font-size : 100px;
+	}
 		
 }
 
