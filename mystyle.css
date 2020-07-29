@@ -22,26 +22,6 @@
 	padding: 22px 0px 28px 0px;
 }
 
-@media only screen and (max-aspect-ratio: 8/5){
-	.root{margin : 0px 15px 10px 15px;
-		font-size : 40px;
-		padding: 10px 10px 10px 10px;
-		display: block;
-		}
-	.js{
-		font-size : 60px;
-	}
-	.header{
-		font-size : 100px;
-	}
-		
-}
-
-@media only screen and (max-width: 1000px){
-	.root{margin : 0px 15px 10px 15px;
-		padding: 10px 10px 10px 10px;}
-		
-}
 
 body{
 	background: #99b;
@@ -92,3 +72,25 @@ img {
     border-radius: 10px;
     object-fit:cover; 
     } 
+
+@media only screen and (max-aspect-ratio: 8/5){
+	.root{margin : 0px 15px 10px 15px;
+		font-size : 40px;
+		padding: 10px 10px 10px 10px;
+		display: block;
+		}
+	.js{
+		font-size : 60px;
+	}
+	.header{
+		font-size : 100px;
+	}
+		
+}
+
+@media only screen and (max-width: 1000px){
+	.root{margin : 0px 15px 10px 15px;
+		padding: 10px 10px 10px 10px;}
+		
+}
+
