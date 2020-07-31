@@ -20,6 +20,10 @@
     font-family : "Poppins", sans-serif;
     font-size : 10px;
  }
+.bar{
+  max-width : 400px;
+  margin : auto;
+}
    .footer{
     position : absolute;
     bottom : 10px;
