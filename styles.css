@@ -35,6 +35,14 @@
     font-size : 10px;
    }
   }
-@media screen and (orientation: portrait) {
-  .
-}      
+input {
+  width: 100%;
+  padding-right: 40px;
+}
+
+button {
+  width: 40px;
+  position: absolute;
+  top: 0;
+  right: 0;
+} 
