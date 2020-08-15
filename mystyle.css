@@ -87,9 +87,5 @@ img {
 		
 }
 
-@media only screen and (max-width: 1000px){
-	.root{margin : 0px 15px 10px 15px;
-		padding: 10px 10px 10px 10px;}
-		
-}
+
 
