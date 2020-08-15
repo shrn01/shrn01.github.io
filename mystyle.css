@@ -73,8 +73,8 @@ img {
     } 
 
 @media only screen and (max-aspect-ratio: 8/5){
-	.root{margin : 0px 15px 10px 15px;
-		font-size : 2em;
+	.root{margin : 10% 10% 10% 10%;
+		font-size : 40px;
 		padding: 10px 10px 10px 10px;
 		display: block;
 		}
