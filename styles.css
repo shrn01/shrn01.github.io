@@ -9,6 +9,11 @@
   body{
     background-image : url(https://source.unsplash.com/random/1920x1080/);
  }
+
+ .form{
+   justify-content : center;
+}
+
  a{
   color : white;
     font-family : "Poppins", sans-serif;
@@ -17,6 +22,7 @@
 .bar{
   padding : 15% 0% 0% 0%;
   max-width : 400px;
+  width : 100%;
   margin : auto;
 }
    .footer{
@@ -29,4 +35,6 @@
     font-size : 10px;
    }
   }
-      
+@media screen and (orientation: portrait) {
+  .
+}      
