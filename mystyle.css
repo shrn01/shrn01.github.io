@@ -81,6 +81,7 @@ img {
 	.post{
 		margin : 4vw;
 height : 100px;
+		word-wrap : break-word;
 text-overflow : ellipsis ;
 		overflow : hidden;
 	}
