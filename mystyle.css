@@ -80,6 +80,9 @@ img {
 		}
 	.post{
 		margin : 4vw;
+height : 100px;
+text-overflow : ellipsis ;
+		overflow : hidden;
 	}
 	.js{
 		font-size : 2em;
