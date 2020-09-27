@@ -1,57 +1,33 @@
 <!DOCTYPE html>
 <html>
- <!-- Global site tag (gtag.js) - Google Analytics -->
-<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170100935-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
 
-  gtag('config', 'UA-170100935-1');
-</script>
- -->
-<script data-ad-client="ca-pub-7597471805093301" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!--  favicon part -->
- <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
- 
- 
-<!--  styling -->
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
- <link rel= "stylesheet" href = "styles.css">
- 
- 
- 
-<title>Mr Noob | Sharan J</title>
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="multisearch">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>multisearch</title>
+  <link rel="manifest" href="manifest.json">
+</head>
 <body>
- <script>
-  var x = 'https://source.unsplash.com/random/';
-  var y = window.innerWidth + 30;
-  var z = window.innerHeight + 50;
-  var k = 'url('+ x + y + 'x' +z + ')';
-  document.getElementsByTagName("body")[0].style.backgroundImage = k
- 
- </script>
-  <div class = 'first'>
-  <h1 style = 'text-size : 80px'>Are you new here?</h1>
-  </div>
- 
-<!--  search box -->
- <div class = 'bar'>
-  <form method="get" action="https://www.google.com/search" class = 'form'>
-    <input placeholder = 'Go type on !' class = 'form-control' type="text" name="q" size="31" value="">
-    <button type="submit" class = 'btn btn-dark'><i class="fa fa-search"></i></button>
-  </form>
- </div>
- 
- <div class = 'footer'>
-  <h>photo from <a href = https://unsplash.com/ target = '_blank'>Unsplash</a></h>
- </div>
-  
+  <!-- This script installs service_worker.js to provide PWA functionality to
+       application. For more information, see:
+       https://developers.google.com/web/fundamentals/primers/service-workers -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js?v=569311058');
+      });
+    }
+  </script>
+  <script src="main.dart.js?v=569311058" type="application/javascript"></script>
 </body>
 </html>
