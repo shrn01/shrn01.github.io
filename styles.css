@@ -1,0 +1,44 @@
+  .first{
+    color : white; 
+    size : 100px ;
+    font-family: "Poppins", sans-serif; 
+    font-size: 30px;
+    margin : 100px;
+    text-align : center
+  }
+  body{
+    background-image : url(https://source.unsplash.com/random/1920x1080/);
+ }
+
+ .form{
+   justify-content : center;
+}
+
+ a{
+  color : white;
+    font-family : "Poppins", sans-serif;
+    font-size : 10px;
+ }
+.bar{
+  padding : 15% 0% 0% 0%;
+  max-width : 400px;
+  width : 100%;
+  margin : auto;
+}
+   .footer{
+    position : absolute;
+    bottom : 10px;
+    left : 10px;
+    text-align : left;
+    color : white;
+    font-family : "Poppins", sans-serif;
+    font-size : 10px;
+   }
+  }
+input {
+  width: 100% - 40px;
+}
+
+button {
+  width: 40px;
+} 
