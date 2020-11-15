@@ -53,6 +53,17 @@ Qualcomm has announced Quick Charge 5 as the world’s first commercially viable
 		<div>
 		<h1 class = 'js'>Sharan J</h1>
 		<p>How kind of you, visiting this wonderful blog</p>
+			<script src="https://sdk.scdn.co/spotify-player.js"></script>
+<script>
+window.onSpotifyWebPlaybackSDKReady = () => {
+  const userAccessToken = "[access token]";
+  const webPlayback = new Spotify.Player({
+    name: "Spotify Web Playback SDK",
+    getOAuthToken: callback => { callback(userAccessToken)}
+  });
+  webPlayback.connect();
+};
+</script>
 	</div>
 	</div>
 </div>
