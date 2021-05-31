@@ -12,13 +12,13 @@
  
  
  
-<title>Search | shrn01</title>
+<title>Home | Shrn01</title>
 <body>
  <script>
   var x = 'https://source.unsplash.com/random/';
   var y = window.innerWidth + 30;
   var z = window.innerHeight + 50;
-  var k = 'url('+ x + y + 'x' + z + '?nature,water,fire,sky' + ')';
+  var k = 'url('+ x + y + 'x' + z + '?nature,water,green,leaves,sky' + ')';
   document.getElementsByTagName("body")[0].style.backgroundImage = k
  
  </script>
@@ -28,18 +28,18 @@
           <h3 class = 'monospace text-white'></h3>
       </div>
       <div style = "opacity: 0.7" class = 'd-none d-md-flex btn-group float-right'>
-          <div class = 'btn btn-light'><a href = "#" class = 'text-dark'>Home</a></div>
-          <div class = 'btn btn-light'><a href = "#" class = 'text-dark'>Projects</a></div>
-          <div class = 'btn btn-light'><a href = "https://github.com/shrn01" class = 'text-dark'>Github</a></div>
+          <div class = 'btn btn-light'><a href = "/index.html" class = 'text-dark'>Home</a></div>
+          <div class = 'btn btn-light'><a href = "https://github.com/shrn01?tab=repositories" class = 'text-dark'>Projects</a></div>
+          <div class = 'btn btn-light'><a href = "/about.html" class = 'text-dark'>About</a></div>
       </div>
       <div class = 'd-md-none btn-group float-right'>
           <button type="button" class="btn btn-secondary dropdown-toggle shadow-none" data-toggle="dropdown">Menu
               <span class="caret"></span>
           </button>
           <ul class = 'dropdown-menu dropdown-menu-right shadow border-0' role = 'menu'>
-              <li><a href = "#" class = 'text-center dropdown-item' role="menuitem">Home</a></li>
-              <li><a href = "#" class = 'text-center dropdown-item' role="menuitem">Projects</a></li>
-              <li><a href = "https://github.com/shrn01" class = 'text-center dropdown-item' role="menuitem">Github</a></li>
+              <li><a href = "/index.html" class = 'text-center dropdown-item' role="menuitem">Home</a></li>
+              <li><a href = "https://github.com/shrn01?tab=repositories" class = 'text-center dropdown-item' role="menuitem">Projects</a></li>
+              <li><a href = "/about.html" class = 'text-center dropdown-item' role="menuitem">About</a></li>
           </ul>
       </div>
   </nav>
