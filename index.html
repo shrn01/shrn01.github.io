@@ -1,18 +1,78 @@
+<!DOCTYPE html>
+<html>
 
-<div class = 'text-center'>
-<h3>Currently Broken, come after some days</h3>
-</div>
+<!--  favicon part -->
 
-<style type="text/css">
-	.text-center{
-		text-align: center;
-		margin : auto;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		height: 100%;
-	}
-	h3{
-		font-family: sans-serif;
-	}
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+ 
+<title>Home | Shrn01</title>
+<body>
+ <script>
+  var x = 'https://source.unsplash.com/random/';
+  var y = window.innerWidth + 30;
+  var z = window.innerHeight + 50;
+  var k = 'url('+ x + y + 'x' + z + '?nature,water,green,morning,leaves,sky' + ')';
+  // k = 'url(download.jpg)'
+  document.getElementsByTagName("body")[0].style.backgroundImage = k;
+
+
+ </script>
+ <div class = "name">
+   <h2>Hey, I'm <span class = "shrn link">sharan</span></h2>
+   <h2><a class = "link" href = "#">This</a> is my resume</h2>
+   <h2>Checkout projects in my <a class = "link" href = "https://github.com/shrn01" target = "_blank">Github</a>.</h2>
+   <h2>Connect with me on <a class = "link" href = "sharanjs1999@gmail.com" target = "_blank">email</a> and <a class = "link" href = "https://www.linkedin.com/in/shrn/" target = "_blank">LinkedIn</a>.</h2>
+ </div>
+
+
+ <div class = 'footer'>
+  <span>photo from <a href = https://unsplash.com/ target = '_blank' style="color: white;">Unsplash</a></span>
+ </div>
+
+<style>
+  body{
+    display: flex;
+    height: 100%;
+  justify-content: center;
+  align-items: center;
+  }
+  .name{
+    text-align: center;
+    margin-top: 10%;
+    background-color: rgba(240, 240, 240, 0.6);
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+  }
+  .shrn{
+    color: rgb(225, 245, 225);
+  }
+  .link{
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  .footer{
+    position : fixed;
+    bottom : 10px;
+    left : 10px;
+    text-align : left;
+    color : white;
+    font-family : "Poppins", sans-serif;
+    font-size : 10px;
+   }
+
+   .text-center{
+    text-align: center;
+   }
+   html{
+    font-family: "Poppins", sans-serif;
+   }
 </style>
+</body>
+</html>
